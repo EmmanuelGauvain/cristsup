@@ -1,3 +1,4 @@
+[
 {"oid":110,"nam":"Thanetian","eag":59.20000,"lag":56.00000,"xft":0,"xbl":268,"xfl":186,"xbt":0,"dsb":454,"dib":29,"noc":1386},
 {"oid":743,"nam":"Selandian","eag":61.60000,"lag":59.20000,"xft":13,"xbl":89,"xfl":167,"xbt":255,"dsb":311,"dib":12,"noc":1018},
 {"oid":111,"nam":"Danian","eag":66.00000,"lag":61.60000,"xft":90,"xbl":261,"xfl":325,"xbt":254,"dsb":823,"dib":21,"noc":2238},
@@ -23,3 +24,4 @@
 {"oid":131,"nam":"Toarcian","eag":182.70000,"lag":174.10000,"xft":278,"xbl":123,"xfl":474,"xbt":541,"dsb":1183,"dib":23,"noc":13147},
 {"oid":132,"nam":"Pliensbachian","eag":190.80000,"lag":182.70000,"xft":181,"xbl":70,"xfl":131,"xbt":483,"dsb":661,"dib":16,"noc":9868},
 {"oid":133,"nam":"Sinemurian","eag":199.30000,"lag":190.80000,"xft":553,"xbl":0,"xfl":273,"xbt":0,"dsb":826,"dib":21,"noc":6535}
+]
