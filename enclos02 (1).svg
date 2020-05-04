@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 500 500"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="enclosbig10.svg"
+   width="500"
+   height="500">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="1639.7016"
+     inkscape:cy="274.61119"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2"
+     showgrid="true"
+     inkscape:window-width="511"
+     inkscape:window-height="423"
+     inkscape:window-x="1922"
+     inkscape:window-y="275"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5265"
+       empspacing="10"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       spacingx="2px"
+       spacingy="2px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">var pauser1
+var pauser2
+var pauser3
+var pauser4
+var pauser5
+var pauser6
+var pauser7
+var pauser8
+var pauserwait
+var retour
+var lancer
+var placer
+var wander
+var debut
+var mutato
+var rallez
+var souris<script
+   id="marbrle"
+   type="application/javascript">    setTimeout(function () { 
+      var xmlns = &quot;http://www.w3.org/2000/svg&quot;
+      for(i = 0; 8000 &gt; i; i++) {
+         var restex = (i%100)*5
+         var restey = (i*1-restex*0.2)/20
+         var recto = document.createElementNS(xmlns,&quot;rect&quot;);
+         recto.setAttribute(&quot;x&quot;, restex);
+         recto.setAttribute(&quot;y&quot;, restey);
+         recto.setAttribute(&quot;height&quot;, 5);
+         recto.setAttribute(&quot;width&quot;, 5);
+         recto.setAttribute(&quot;fill&quot;, &quot;#2c5aa0&quot;);
+         recto.setAttribute(&quot;onmouseover&quot;, &quot;souriscolorize(evt)&quot;);
+         recto.setAttribute(&quot;onmousedown&quot;, &quot;souris = false&quot;);
+         recto.setAttribute(&quot;onmouseup&quot;, &quot;souris = true&quot;);
+         recto.setAttribute(&quot;onclick&quot;, &quot;colorize(evt)&quot;);
+         recto.setAttribute(&quot;concentration&quot;, &quot;0&quot;);
+         recto.setAttribute(&quot;nouveletat&quot;, &quot;0&quot;);
+         recto.setAttribute(&quot;id&quot;, &quot;z&quot;+i*1);
+         document.getElementById(&quot;tango&quot;).appendChild(recto);
+    }
+  }, 22)</script>
+<script
+   type="application/javascript"
+   id="alleeeez">    function allez(evt) { var rallez = setInterval(function () {
+      var xmlns = &quot;http://www.w3.org/2000/svg&quot;
+      for(i = 102; 7575 &gt; i; i++) {
+         var nomcible = &quot;z&quot;+i*1
+         var ciblenom = document.getElementById(nomcible)
+         var conc = ciblenom.getAttribute(&quot;concentration&quot;)
+         var cell01 = &quot;z&quot;+(i*1-101)*1
+         var cell02 = &quot;z&quot;+(i*1-100)*1
+         var cell03 = &quot;z&quot;+(i*1-99)*1
+         var cell04 = &quot;z&quot;+(i*1-1)*1
+         var cell05 = &quot;z&quot;+(i*1+1)*1
+         var cell06 = &quot;z&quot;+(i*1+99)*1
+         var cell07 = &quot;z&quot;+(i*1+100)*1
+         var cell08 = &quot;z&quot;+(i*1+101)*1
+         var lala01 = document.getElementById(cell01)
+         var valeur01 = lala01.getAttribute(&quot;concentration&quot;)
+         var lala02 = document.getElementById(cell02)
+         var valeur02 = lala02.getAttribute(&quot;concentration&quot;)
+         var lala03 = document.getElementById(cell03)
+         var valeur03 = lala03.getAttribute(&quot;concentration&quot;)
+         var lala04 = document.getElementById(cell04)
+         var valeur04 = lala04.getAttribute(&quot;concentration&quot;)
+         var lala05 = document.getElementById(cell05)
+         var valeur05 = lala05.getAttribute(&quot;concentration&quot;)
+         var lala06 = document.getElementById(cell06)
+         var valeur06 = lala06.getAttribute(&quot;concentration&quot;)
+         var lala07 = document.getElementById(cell07)
+         var valeur07 = lala07.getAttribute(&quot;concentration&quot;)
+         var lala08 = document.getElementById(cell08)
+         var valeur08 = lala08.getAttribute(&quot;concentration&quot;)
+         var valeurtous = +valeur01*1+valeur02*1+valeur03*1+valeur04*1+valeur05*1+valeur06*1+valeur07*1+valeur08*1
+         if (conc == 100)
+            if (valeurtous == 300 || valeurtous == 400)
+               document.getElementById(nomcible).setAttribute(&quot;nouveletat&quot;, 0);
+            else
+               document.getElementById(nomcible).setAttribute(&quot;nouveletat&quot;, 100);
+         else
+            if (valeurtous == 200 || valeurtous == 100)
+               document.getElementById(nomcible).setAttribute(&quot;nouveletat&quot;, 100);
+            else
+               document.getElementById(nomcible).setAttribute(&quot;nouveletat&quot;, 0);
+    }
+      pauser = setTimeout(function () {
+         for(i = 103; 7575 &gt; i; i++) {
+            var nomcible = &quot;z&quot;+i*1
+            var ciblenom = document.getElementById(nomcible)
+            var nouveletat = ciblenom.getAttribute(&quot;nouveletat&quot;)
+            document.getElementById(nomcible).setAttribute(&quot;concentration&quot;, nouveletat);
+            var conc = ciblenom.getAttribute(&quot;concentration&quot;)
+            if (conc == 100)
+               document.getElementById(nomcible).setAttribute(&quot;fill&quot;, &quot;#769dd9&quot;);
+            else
+               document.getElementById(nomcible).setAttribute(&quot;fill&quot;, &quot;#2c5aa0&quot;);
+    }
+  }, 30)
+  }, 60)
+    }
+</script>
+<script
+   type="application/javascript"
+   id="colorize">    function colorize(evt) {
+      var zible = evt.target
+      var mystere = Math.round(Math.random()*3)
+      if (mystere == 1)
+         zible.setAttribute(&quot;fill&quot;, &quot;#769dd9&quot;);
+      else if (mystere == 2)
+         zible.setAttribute(&quot;fill&quot;, &quot;#769dd9&quot;);
+      else
+         zible.setAttribute(&quot;fill&quot;, &quot;#769dd9&quot;);
+      if (mystere == 1)
+         zible.setAttribute(&quot;concentration&quot;, 100);
+      else if (mystere == 2)
+         zible.setAttribute(&quot;concentration&quot;, 100);
+      else
+         zible.setAttribute(&quot;concentration&quot;, 100);
+  }</script>
+<script
+   id="souriscolorizes"
+   type="application/javascript">    function souriscolorize(evt) {
+      var zible = evt.target
+      var mystere = Math.round(Math.random()*3)
+      if (souris == false)
+         if (mystere == 1)
+            zible.setAttribute(&quot;concentration&quot;, 100);
+         else if (mystere == 2)
+            zible.setAttribute(&quot;concentration&quot;, 100);
+         else
+            zible.setAttribute(&quot;concentration&quot;, 100);
+      else
+         null;
+      if (souris == false)
+         if (mystere == 1)
+            zible.setAttribute(&quot;fill&quot;, &quot;#769dd9&quot;);
+         else if (mystere == 2)
+            zible.setAttribute(&quot;fill&quot;, &quot;#769dd9&quot;);
+         else
+            zible.setAttribute(&quot;fill&quot;, &quot;#769dd9&quot;);
+      else
+         null;
+  }</script>
+<g
+   id="g7232"
+   transform="matrix(0.625,0,0,0.84285715,0,-384.41478)"
+   style="fill:#243560;fill-opacity:1">
+  <rect
+     y="452.6955"
+     x="0"
+     height="600"
+     width="800"
+     id="rect7210-1"
+     style="fill:#243560;fill-opacity:1;stroke:none" />
+</g>
+<g
+   id="tango">
+  <rect
+     transform="translate(0,452.69551)"
+     y="-40"
+     x="0"
+     height="20"
+     width="40"
+     id="zuzu"
+     style="fill:#ff0000;fill-opacity:1;stroke:none"
+     concentration="100"
+     nouveletat="100" />
+  <rect
+     transform="translate(0,452.69551)"
+     y="-40"
+     x="80"
+     height="20"
+     width="40"
+     id="rect3026"
+     style="fill:#ff0000;fill-opacity:1;stroke:none"
+     concentration="100"
+     nouveletat="100" />
+</g>
+<image
+   sodipodi:absref="http://happy-nations.org/moucheland.png"
+   xlink:href="http://happy-nations.org/moucheland.png"
+   id="mouche"
+   x="-40"
+   y="-40"
+   width="20"
+   height="20"
+   caraa="0" />
+<image
+   sodipodi:absref="http://happy-nations.org/tetecone.png"
+   xlink:href="http://happy-nations.org/tetecone.png"
+   id="cone"
+   x="280"
+   y="420"
+   width="20"
+   height="20"
+   caraa="1"
+   carab="1"
+   carac="1"
+   carad="1"
+   radar="50"
+   exradar="1"
+   sauvex="1"
+   sauvey="1"
+   cajoue="1" />
+<g
+   id="groupos"
+   style="fill:#333333"
+   transform="translate(0,-1.4285714)">
+  <rect
+     y="0"
+     x="0"
+     height="10"
+     width="500"
+     id="rect3047"
+     style="fill:#333333;fill-opacity:1;stroke:none" />
+  <rect
+     y="390"
+     x="0"
+     height="111"
+     width="500"
+     id="rect3047-1"
+     style="fill:#333333;fill-opacity:1;stroke:none" />
+  <rect
+     y="0"
+     x="0"
+     height="400"
+     width="5"
+     id="rect3047-7"
+     style="fill:#333333;fill-opacity:1;stroke:none" />
+  <rect
+     y="0"
+     x="495"
+     height="400"
+     width="5"
+     id="rect3047-7-4"
+     style="fill:#333333;fill-opacity:1;stroke:none" />
+</g>
+<g
+   id="boutongo"
+   onclick="document.getElementById('boutongo').style.display = 'none' ; allez(evt)"
+   onmouseover="this.style.cursor = 'pointer'"
+   display="none"
+   style="display:inline"
+   transform="translate(0.85714286,67.714286)">
+  <path
+     d="m 480,360 c 0,11.04569 -8.95431,20 -20,20 -11.04569,0 -20,-8.95431 -20,-20 0,-11.04569 8.95431,-20 20,-20 11.04569,0 20,8.95431 20,20 z"
+     sodipodi:ry="20"
+     sodipodi:rx="20"
+     sodipodi:cy="360"
+     sodipodi:cx="460"
+     id="path3853"
+     style="fill:#aa4400;fill-opacity:1;stroke:none"
+     sodipodi:type="arc" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3855"
+     d="m 452,348 0,24 20,-12 z"
+     style="color:#000000;fill:#ececec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+</g>
+</g>
+</svg>
