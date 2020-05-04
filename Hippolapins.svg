@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 500 500"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="enclosLoups.svg"
+   width="500"
+   height="500">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="851.62235"
+     inkscape:cy="323.18262"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5265"
+       empspacing="10"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       spacingx="2"
+       spacingy="2"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">var pauser1
+var pauser2
+var pauser3
+var pauser4
+var pauser5
+var pauser6
+var pauser7
+var pauser8
+var pauserwait
+var retour
+var lancer
+var placer
+var wander
+var debut
+var mutato
+var rallez
+var souris<script
+   id="marbrle"
+   type="application/javascript">    setTimeout(function () { 
+      var xmlns = &quot;http://www.w3.org/2000/svg&quot;
+      for(i = 0; 8000 &gt; i; i++) {
+         var restex = (i%100)*5
+         var restey = (i*1-restex*0.2)/20
+         var recto = document.createElementNS(xmlns,&quot;rect&quot;);
+         recto.setAttribute(&quot;x&quot;, restex);
+         recto.setAttribute(&quot;y&quot;, restey);
+         recto.setAttribute(&quot;height&quot;, 5);
+         recto.setAttribute(&quot;width&quot;, 5);
+         var mystere = Math.round(Math.random()*2)
+         if (mystere == 1)
+            recto.setAttribute(&quot;fill&quot;,&quot;#786721&quot;);
+         else
+            recto.setAttribute(&quot;fill&quot;,&quot;#5fd38d&quot;);
+         recto.setAttribute(&quot;onmouseover&quot;, &quot;souriscolorize(evt)&quot;);
+         recto.setAttribute(&quot;onmousedown&quot;, &quot;souris = false&quot;);
+         recto.setAttribute(&quot;onmouseup&quot;, &quot;souris = true&quot;);
+         recto.setAttribute(&quot;onclick&quot;, &quot;colorize(evt)&quot;);
+         recto.setAttribute(&quot;concentration&quot;, &quot;0&quot;);
+         recto.setAttribute(&quot;nouveletat&quot;, &quot;0&quot;);
+         recto.setAttribute(&quot;id&quot;, &quot;z&quot;+i*1);
+         document.getElementById(&quot;tango&quot;).appendChild(recto);
+    }
+  }, 22)
+</script>
+<script
+   type="application/javascript"
+   id="alleeeez">    function allez(evt) { var rallez = setInterval(function () {
+      var xmlns = &quot;http://www.w3.org/2000/svg&quot;
+      for(i = 1; 9 &gt; i; i++) {
+         var nomcible = &quot;mouche&quot;+i*1
+         var ciblenom = document.getElementById(nomcible)
+         var conc = ciblenom.getAttribute(&quot;caraa&quot;)
+         var mouchex = ciblenom.getAttribute(&quot;x&quot;)
+         var mouchey = ciblenom.getAttribute(&quot;y&quot;)
+         var mystere = Math.round(Math.random()*4)
+         if (mystere == 1 &amp;&amp; mouchex &lt; 480) 
+            document.getElementById(nomcible).setAttribute(&quot;x&quot;, mouchex*1+5);
+         else if (mystere == 2 &amp;&amp; mouchex &gt; 0)
+            document.getElementById(nomcible).setAttribute(&quot;x&quot;, mouchex*1-5);
+         else if (mystere == 3 &amp;&amp; mouchey &lt; 360) 
+            document.getElementById(nomcible).setAttribute(&quot;y&quot;, mouchey*1+5);
+         else if (mystere == 4 &amp;&amp; mouchey &gt; 5)
+           document.getElementById(nomcible).setAttribute(&quot;y&quot;, mouchey*1-5);
+         else if (mystere == 0 &amp;&amp; mouchey &gt; 5)
+           document.getElementById(nomcible).setAttribute(&quot;y&quot;, mouchey*1-5);
+         else
+           null;
+    }
+      pauser = setTimeout(function () {
+         for(i = 103; 7575 &gt; i; i++) {
+            var nomcible = &quot;z&quot;+i*1
+            var ciblenom = document.getElementById(nomcible)
+            var pred1 = document.getElementById(&quot;mouche1&quot;)
+            var pred2 = document.getElementById(&quot;mouche2&quot;)
+            var pred3 = document.getElementById(&quot;mouche3&quot;)
+            var pred4 = document.getElementById(&quot;mouche4&quot;)
+            var pred5 = document.getElementById(&quot;mouche5&quot;)
+            var pred6 = document.getElementById(&quot;mouche6&quot;)
+            var pred7 = document.getElementById(&quot;mouche7&quot;)
+            var pred8 = document.getElementById(&quot;mouche8&quot;)
+            var lapx1 = pred1.getAttribute(&quot;x&quot;)
+            var lapy1 = pred1.getAttribute(&quot;y&quot;)
+            var lapx2 = pred2.getAttribute(&quot;x&quot;)
+            var lapy2 = pred2.getAttribute(&quot;y&quot;)
+            var lapx3 = pred3.getAttribute(&quot;x&quot;)
+            var lapy3 = pred3.getAttribute(&quot;y&quot;)
+            var lapx4 = pred4.getAttribute(&quot;x&quot;)
+            var lapy4 = pred4.getAttribute(&quot;y&quot;)
+            var lapx5 = pred5.getAttribute(&quot;x&quot;)
+            var lapy5 = pred5.getAttribute(&quot;y&quot;)
+            var lapx6 = pred6.getAttribute(&quot;x&quot;)
+            var lapy6 = pred6.getAttribute(&quot;y&quot;)
+            var lapx7 = pred7.getAttribute(&quot;x&quot;)
+            var lapy7 = pred7.getAttribute(&quot;y&quot;)
+            var lapx8 = pred8.getAttribute(&quot;x&quot;)
+            var lapy8 = pred8.getAttribute(&quot;y&quot;)
+            var greenx = ciblenom.getAttribute(&quot;x&quot;)
+            var greeny = ciblenom.getAttribute(&quot;y&quot;)
+            if ((lapx1 == greenx) &amp;&amp; (lapy1 == greeny))
+               document.getElementById(nomcible).setAttribute(&quot;fill&quot;, &quot;#786721&quot;);
+            else if ((lapx2 == greenx) &amp;&amp; (lapy2 == greeny))
+               document.getElementById(nomcible).setAttribute(&quot;fill&quot;, &quot;#786721&quot;);
+            else if ((lapx3 == greenx) &amp;&amp; (lapy3 == greeny))
+               document.getElementById(nomcible).setAttribute(&quot;fill&quot;, &quot;#786721&quot;);
+            else if ((lapx4 == greenx) &amp;&amp; (lapy4 == greeny))
+               document.getElementById(nomcible).setAttribute(&quot;fill&quot;, &quot;#786721&quot;);
+            else if ((lapx5 == greenx) &amp;&amp; (lapy5 == greeny))
+               document.getElementById(nomcible).setAttribute(&quot;fill&quot;, &quot;#5fd38d&quot;);
+            else if ((lapx6 == greenx) &amp;&amp; (lapy6 == greeny))
+               document.getElementById(nomcible).setAttribute(&quot;fill&quot;, &quot;#5fd38d&quot;);
+            else if ((lapx7 == greenx) &amp;&amp; (lapy7 == greeny))
+               document.getElementById(nomcible).setAttribute(&quot;fill&quot;, &quot;#5fd38d&quot;);
+            else if ((lapx8 == greenx) &amp;&amp; (lapy8 == greeny))
+               document.getElementById(nomcible).setAttribute(&quot;fill&quot;, &quot;#5fd38d&quot;);
+            else
+               null;
+    }
+  }, 1)
+  }, 3)
+    }
+
+</script>
+<script
+   type="application/javascript"
+   id="colorize">    function colorize(evt) {
+      var zible = evt.target
+      var mystere = Math.round(Math.random()*3)
+      if (mystere == 1)
+         zible.setAttribute(&quot;fill&quot;, &quot;#769dd9&quot;);
+      else if (mystere == 2)
+         zible.setAttribute(&quot;fill&quot;, &quot;#769dd9&quot;);
+      else
+         zible.setAttribute(&quot;fill&quot;, &quot;#769dd9&quot;);
+      if (mystere == 1)
+         zible.setAttribute(&quot;concentration&quot;, 100);
+      else if (mystere == 2)
+         zible.setAttribute(&quot;concentration&quot;, 100);
+      else
+         zible.setAttribute(&quot;concentration&quot;, 100);
+  }</script>
+<script
+   id="souriscolorizes"
+   type="application/javascript">    function souriscolorize(evt) {
+      var zible = evt.target
+      var mystere = Math.round(Math.random()*3)
+      if (souris == false)
+         if (mystere == 1)
+            zible.setAttribute(&quot;concentration&quot;, 100);
+         else if (mystere == 2)
+            zible.setAttribute(&quot;concentration&quot;, 100);
+         else
+            zible.setAttribute(&quot;concentration&quot;, 100);
+      else
+         null;
+      if (souris == false)
+         if (mystere == 1)
+            zible.setAttribute(&quot;fill&quot;, &quot;#769dd9&quot;);
+         else if (mystere == 2)
+            zible.setAttribute(&quot;fill&quot;, &quot;#769dd9&quot;);
+         else
+            zible.setAttribute(&quot;fill&quot;, &quot;#769dd9&quot;);
+      else
+         null;
+  }</script>
+<g
+   id="g7232"
+   transform="matrix(0.625,0,0,0.84285715,0,-384.41478)"
+   style="fill:#243560;fill-opacity:1">
+  <rect
+     y="452.6955"
+     x="0"
+     height="600"
+     width="800"
+     id="rect7210-1"
+     style="fill:#786721;fill-opacity:1;stroke:none" />
+  <rect
+     style="opacity:1;fill:#5fd38d;fill-opacity:1;stroke:none;stroke-width:3.64517641;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+     id="rect4630"
+     width="128"
+     height="47.457626"
+     x="256"
+     y="313.71243" />
+</g>
+<g
+   id="tango">
+  <rect
+     transform="translate(0,452.69551)"
+     y="-40"
+     x="0"
+     height="20"
+     width="40"
+     id="zuzu"
+     style="fill:#ff0000;fill-opacity:1;stroke:none"
+     concentration="100"
+     nouveletat="100" />
+  <rect
+     transform="translate(0,452.69551)"
+     y="-40"
+     x="80"
+     height="20"
+     width="40"
+     id="rect3026"
+     style="fill:#ff0000;fill-opacity:1;stroke:none"
+     concentration="100"
+     nouveletat="100" />
+</g>
+<g
+   id="groupos"
+   style="fill:#ffffff"
+   transform="translate(0,-1.4285714)">
+  <rect
+     y="0"
+     x="0"
+     height="10"
+     width="500"
+     id="rect3047"
+     style="fill:#ffffff;fill-opacity:1;stroke:none" />
+  <rect
+     y="390"
+     x="0"
+     height="111"
+     width="500"
+     id="rect3047-1"
+     style="fill:#ffffff;fill-opacity:1;stroke:none" />
+  <rect
+     y="0"
+     x="0"
+     height="400"
+     width="5"
+     id="rect3047-7"
+     style="fill:#ffffff;fill-opacity:1;stroke:none" />
+  <rect
+     y="0"
+     x="495"
+     height="400"
+     width="5"
+     id="rect3047-7-4"
+     style="fill:#ffffff;fill-opacity:1;stroke:none" />
+</g>
+<g
+   id="boutongo"
+   onclick="allez(evt)"
+   onmouseover="this.style.cursor = 'pointer'"
+   display="none"
+   style="display:inline"
+   transform="matrix(1.9964844,0,0,0.76,-859.44065,188.35)">
+  <rect
+     style="opacity:1;fill:#1f241c;fill-opacity:1;stroke:none;stroke-width:1.33087659;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+     id="rect5229"
+     width="72.878098"
+     height="50"
+     x="437.73978"
+     y="333.75" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:15.42459774px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#dee3db;fill-opacity:1;stroke:none;stroke-width:0.38561496"
+     x="731.03137"
+     y="225.84555"
+     id="text5227"
+     transform="scale(0.61698392,1.6207878)"><tspan
+       sodipodi:role="line"
+       x="731.03137"
+       y="225.84555"
+       id="tspan5225"
+       style="fill:#dee3db;stroke-width:0.38561496">D'accord</tspan></text>
+</g>
+<image
+   sodipodi:absref="http://icons.iconarchive.com/icons/yellowicon/easter/24/rabbit-icon.png"
+   xlink:href="http://icons.iconarchive.com/icons/yellowicon/easter/24/rabbit-icon.png"
+   id="mouche1"
+   x="100"
+   y="40"
+   width="20"
+   height="20"
+   caraa="0" />
+<image
+   sodipodi:absref="http://icons.iconarchive.com/icons/yellowicon/easter/24/rabbit-icon.png"
+   xlink:href="http://icons.iconarchive.com/icons/yellowicon/easter/24/rabbit-icon.png"
+   id="mouche2"
+   x="80"
+   y="140"
+   width="20"
+   height="20"
+   caraa="0" />
+<image
+   sodipodi:absref="http://icons.iconarchive.com/icons/yellowicon/easter/24/rabbit-icon.png"
+   xlink:href="http://icons.iconarchive.com/icons/yellowicon/easter/24/rabbit-icon.png"
+   id="mouche3"
+   x="140"
+   y="240"
+   width="20"
+   height="20"
+   caraa="0" />
+<image
+   sodipodi:absref="http://icons.iconarchive.com/icons/yellowicon/easter/24/rabbit-icon.png"
+   xlink:href="http://icons.iconarchive.com/icons/yellowicon/easter/24/rabbit-icon.png"
+   id="mouche4"
+   x="80"
+   y="320"
+   width="20"
+   height="20"
+   caraa="0" />
+<image
+   sodipodi:absref="http://icons.iconarchive.com/icons/yellowicon/easter/24/rabbit-icon.png"
+   xlink:href="http://icons.iconarchive.com/icons/visualpharm/animals/32/Hippopotamus-icon.png"
+   id="mouche5"
+   x="380"
+   y="40"
+   width="20"
+   height="20"
+   caraa="0" />
+<image
+   sodipodi:absref="http://icons.iconarchive.com/icons/yellowicon/easter/24/rabbit-icon.png"
+   xlink:href="http://icons.iconarchive.com/icons/visualpharm/animals/32/Hippopotamus-icon.png"
+   id="mouche6"
+   x="380"
+   y="140"
+   width="20"
+   height="20"
+   caraa="0"
+   style="fill:#008000" />
+<image
+   sodipodi:absref="http://icons.iconarchive.com/icons/yellowicon/easter/24/rabbit-icon.png"
+   xlink:href="http://icons.iconarchive.com/icons/visualpharm/animals/32/Hippopotamus-icon.png"
+   id="mouche7"
+   x="360"
+   y="240"
+   width="20"
+   height="20"
+   caraa="0" />
+<image
+   xlink:href="http://icons.iconarchive.com/icons/visualpharm/animals/32/Hippopotamus-icon.png"
+   id="mouche8"
+   x="380"
+   y="340"
+   width="20"
+   height="20"
+   caraa="0"
+   sodipodi:absref="http://icons.iconarchive.com/icons/yellowicon/easter/24/rabbit-icon.png" />
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:15.13511944px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#225500;fill-opacity:1;stroke:none;stroke-width:0.378378"
+   x="13.407089"
+   y="411.89557"
+   id="text5227-2"><tspan
+     sodipodi:role="line"
+     x="13.407089"
+     y="411.89557"
+     id="tspan5225-0"
+     style="fill:#225500;stroke-width:0.378378">Les lapins mangent le cresson,</tspan><tspan
+     sodipodi:role="line"
+     x="13.407089"
+     y="430.81445"
+     style="fill:#225500;stroke-width:0.378378"
+     id="tspan5820">les hippopotames fertilisent la terre.</tspan></text>
+</g>
+</svg>
